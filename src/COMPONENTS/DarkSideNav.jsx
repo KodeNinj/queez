@@ -5,7 +5,7 @@ const DarkSideNav = ({isDarks, setisDarks}) => {
      // dark mode
     // dark mode
 
-    <div className='md:h-[100vh] md:min-w-[20vw] bg-[var(--secondBg)] hidden md:flex flex-col items-center justify-between pt-[30px] pb-[100px]'>
+    <div className='md:h-[100vh] md:min-w-[20vw] bg-[var(--secondBg)] hidden md:flex flex-col items-center justify-between pt-[30px] pb-[100px] z-100'>
         {/* logo */}
         <h2 className='text-[var(--white)] text-2xl font-bold text-center'>QUEEZ<span className='text-[var(--brownColor)]'>EET</span></h2>
 
