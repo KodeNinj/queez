@@ -14,3 +14,11 @@
   --white: rgb(235, 235, 235);
   --black: rgb(29, 29, 29);
 }
+
+#Visible{
+  display: block;
+}
+#hide{
+  transform: translateY(-1000%);
+  transition: all 3s ease;
+}
