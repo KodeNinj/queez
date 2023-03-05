@@ -56,7 +56,7 @@ const GamepageDark = ({isDarks,setisDarks}) => {
                 <div className='flex flex-wrap gap-10 justify-center items-center mt-[40px]'>
                   {e.options.map((options)=>{
                    
-                    return <button className='w-[40%] border-[1px] border-[var(--white)] hover:bg-[var(--secondBg)] hover:text-[var(--secondary)] text-[var(--white)] transition-all ease duration-1000  p-[15px]' onClick={()=>{
+                    return <button className='w-[40%] border-[1px] border-[var(--white)] hover:bg-[var(--secondBg)] md:hover:text-[var(--secondary)] text-[var(--white)] transition-all ease duration-1000  p-[15px]' onClick={()=>{
                       // logic for choices
                       if(options === e.answer && end <= 10){
                         setscore(score+1)
